@@ -1,0 +1,6 @@
+framework module Pods_CatatSehatTests {
+  umbrella header "Pods-CatatSehatTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

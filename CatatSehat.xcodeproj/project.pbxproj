@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6256DBEC64F08D298A25624F /* Pods_CatatSehat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24BF9EBCA4CC1DC4A769D64 /* Pods_CatatSehat.framework */; };
+		8053BFB15317B2EBE03A10F8 /* Pods_CatatSehat_CatatSehatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAF6ECF05A4A58A76F32E93 /* Pods_CatatSehat_CatatSehatUITests.framework */; };
+		951FBAAA248993DB00A49DC7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951FBAA9248993DB00A49DC7 /* HealthKit.framework */; };
+		95B11DB724891B16001F08FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B11DB624891B16001F08FF /* AppDelegate.swift */; };
+		95B11DB924891B16001F08FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B11DB824891B16001F08FF /* SceneDelegate.swift */; };
+		95B11DC124891B16001F08FF /* CatatSehat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95B11DBF24891B16001F08FF /* CatatSehat.xcdatamodeld */; };
+		95B11DC324891B17001F08FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B11DC224891B17001F08FF /* Assets.xcassets */; };
+		95B11DC624891B17001F08FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B11DC424891B17001F08FF /* LaunchScreen.storyboard */; };
+		95B11DD124891B17001F08FF /* CatatSehatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B11DD024891B17001F08FF /* CatatSehatTests.swift */; };
+		95B11DDC24891B17001F08FF /* CatatSehatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B11DDB24891B17001F08FF /* CatatSehatUITests.swift */; };
+		95B11DF324891E8F001F08FF /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B11DEE24891E8F001F08FF /* HomeRouter.swift */; };
+		95B11DF424891E8F001F08FF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B11DEF24891E8F001F08FF /* HomeViewController.swift */; };
+		95B11DF524891E8F001F08FF /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B11DF024891E8F001F08FF /* HomeBuilder.swift */; };
+		95B11DF624891E8F001F08FF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B11DF124891E8F001F08FF /* HomeViewModel.swift */; };
+		95B11DF724891E8F001F08FF /* Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95B11DF224891E8F001F08FF /* Home.xib */; };
+		95B11DFB248939B6001F08FF /* OnBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B11DF9248939B6001F08FF /* OnBoardViewController.swift */; };
+		95B11DFC248939B6001F08FF /* OnBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95B11DFA248939B6001F08FF /* OnBoardViewController.xib */; };
+		95B11DFF24898D1B001F08FF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B11DFE24898D1B001F08FF /* Storyboard.storyboard */; };
+		95B11E0124898D31001F08FF /* JAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B11E0024898D31001F08FF /* JAViewController.swift */; };
+		DB699B5FF0BFB6B62447929F /* Pods_CatatSehatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE499947ACB284D90D34738 /* Pods_CatatSehatTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95B11DCD24891B17001F08FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B11DAB24891B16001F08FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B11DB224891B16001F08FF;
+			remoteInfo = CatatSehat;
+		};
+		95B11DD824891B17001F08FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B11DAB24891B16001F08FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B11DB224891B16001F08FF;
+			remoteInfo = CatatSehat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CAF6ECF05A4A58A76F32E93 /* Pods_CatatSehat_CatatSehatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatatSehat_CatatSehatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4D8F505C2D7A970F36453D /* Pods-CatatSehatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatatSehatTests.debug.xcconfig"; path = "Target Support Files/Pods-CatatSehatTests/Pods-CatatSehatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E95C71FC38BC5E10D77CEE3 /* Pods-CatatSehat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatatSehat.release.xcconfig"; path = "Target Support Files/Pods-CatatSehat/Pods-CatatSehat.release.xcconfig"; sourceTree = "<group>"; };
+		951FBAA8248993DB00A49DC7 /* CatatSehat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CatatSehat.entitlements; sourceTree = "<group>"; };
+		951FBAA9248993DB00A49DC7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		95B11DB324891B16001F08FF /* CatatSehat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatatSehat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B11DB624891B16001F08FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95B11DB824891B16001F08FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95B11DC024891B16001F08FF /* CatatSehat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CatatSehat.xcdatamodel; sourceTree = "<group>"; };
+		95B11DC224891B17001F08FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95B11DC524891B17001F08FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95B11DC724891B17001F08FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B11DCC24891B17001F08FF /* CatatSehatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatatSehatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B11DD024891B17001F08FF /* CatatSehatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatatSehatTests.swift; sourceTree = "<group>"; };
+		95B11DD224891B17001F08FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B11DD724891B17001F08FF /* CatatSehatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatatSehatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B11DDB24891B17001F08FF /* CatatSehatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatatSehatUITests.swift; sourceTree = "<group>"; };
+		95B11DDD24891B17001F08FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B11DEE24891E8F001F08FF /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		95B11DEF24891E8F001F08FF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		95B11DF024891E8F001F08FF /* HomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		95B11DF124891E8F001F08FF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		95B11DF224891E8F001F08FF /* Home.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Home.xib; sourceTree = "<group>"; };
+		95B11DF9248939B6001F08FF /* OnBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardViewController.swift; sourceTree = "<group>"; };
+		95B11DFA248939B6001F08FF /* OnBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardViewController.xib; sourceTree = "<group>"; };
+		95B11DFE24898D1B001F08FF /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		95B11E0024898D31001F08FF /* JAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAViewController.swift; sourceTree = "<group>"; };
+		97938CF8F6A7CF135836B521 /* Pods-CatatSehat-CatatSehatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatatSehat-CatatSehatUITests.debug.xcconfig"; path = "Target Support Files/Pods-CatatSehat-CatatSehatUITests/Pods-CatatSehat-CatatSehatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A24BF9EBCA4CC1DC4A769D64 /* Pods_CatatSehat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatatSehat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3E32A86140D888BF556A1E /* Pods-CatatSehat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatatSehat.debug.xcconfig"; path = "Target Support Files/Pods-CatatSehat/Pods-CatatSehat.debug.xcconfig"; sourceTree = "<group>"; };
+		D1DED9FAA6759CB954D98359 /* Pods-CatatSehatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatatSehatTests.release.xcconfig"; path = "Target Support Files/Pods-CatatSehatTests/Pods-CatatSehatTests.release.xcconfig"; sourceTree = "<group>"; };
+		DEE499947ACB284D90D34738 /* Pods_CatatSehatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatatSehatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31ED84DA1658A072C293E98 /* Pods-CatatSehat-CatatSehatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatatSehat-CatatSehatUITests.release.xcconfig"; path = "Target Support Files/Pods-CatatSehat-CatatSehatUITests/Pods-CatatSehat-CatatSehatUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95B11DB024891B16001F08FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6256DBEC64F08D298A25624F /* Pods_CatatSehat.framework in Frameworks */,
+				951FBAAA248993DB00A49DC7 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B11DC924891B17001F08FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB699B5FF0BFB6B62447929F /* Pods_CatatSehatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B11DD424891B17001F08FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8053BFB15317B2EBE03A10F8 /* Pods_CatatSehat_CatatSehatUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95B11DAA24891B16001F08FF = {
+			isa = PBXGroup;
+			children = (
+				95B11DB524891B16001F08FF /* CatatSehat */,
+				95B11DCF24891B17001F08FF /* CatatSehatTests */,
+				95B11DDA24891B17001F08FF /* CatatSehatUITests */,
+				95B11DB424891B16001F08FF /* Products */,
+				BF9EFF5DB14BC77E2A19CFE1 /* Pods */,
+				B87295072EDE49487FD20DC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95B11DB424891B16001F08FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95B11DB324891B16001F08FF /* CatatSehat.app */,
+				95B11DCC24891B17001F08FF /* CatatSehatTests.xctest */,
+				95B11DD724891B17001F08FF /* CatatSehatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95B11DB524891B16001F08FF /* CatatSehat */ = {
+			isa = PBXGroup;
+			children = (
+				951FBAA8248993DB00A49DC7 /* CatatSehat.entitlements */,
+				95B11DEB24891B48001F08FF /* Builder */,
+				95B11DEA24891B3A001F08FF /* Properties */,
+				95B11DE924891B26001F08FF /* Configuration */,
+			);
+			path = CatatSehat;
+			sourceTree = "<group>";
+		};
+		95B11DCF24891B17001F08FF /* CatatSehatTests */ = {
+			isa = PBXGroup;
+			children = (
+				95B11DD024891B17001F08FF /* CatatSehatTests.swift */,
+				95B11DD224891B17001F08FF /* Info.plist */,
+			);
+			path = CatatSehatTests;
+			sourceTree = "<group>";
+		};
+		95B11DDA24891B17001F08FF /* CatatSehatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95B11DDB24891B17001F08FF /* CatatSehatUITests.swift */,
+				95B11DDD24891B17001F08FF /* Info.plist */,
+			);
+			path = CatatSehatUITests;
+			sourceTree = "<group>";
+		};
+		95B11DE924891B26001F08FF /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				95B11DC724891B17001F08FF /* Info.plist */,
+				95B11DB624891B16001F08FF /* AppDelegate.swift */,
+				95B11DB824891B16001F08FF /* SceneDelegate.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		95B11DEA24891B3A001F08FF /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				95B11DC224891B17001F08FF /* Assets.xcassets */,
+				95B11DBF24891B16001F08FF /* CatatSehat.xcdatamodeld */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		95B11DEB24891B48001F08FF /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				95B11DFD24898D0F001F08FF /* Tes */,
+				95B11DF82489394C001F08FF /* OnBoard */,
+				95B11DED24891E79001F08FF /* Home */,
+				95B11DEC24891B7A001F08FF /* LaunchScreen */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		95B11DEC24891B7A001F08FF /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				95B11DC424891B17001F08FF /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		95B11DED24891E79001F08FF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				95B11DEE24891E8F001F08FF /* HomeRouter.swift */,
+				95B11DEF24891E8F001F08FF /* HomeViewController.swift */,
+				95B11DF024891E8F001F08FF /* HomeBuilder.swift */,
+				95B11DF124891E8F001F08FF /* HomeViewModel.swift */,
+				95B11DF224891E8F001F08FF /* Home.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		95B11DF82489394C001F08FF /* OnBoard */ = {
+			isa = PBXGroup;
+			children = (
+				95B11DF9248939B6001F08FF /* OnBoardViewController.swift */,
+				95B11DFA248939B6001F08FF /* OnBoardViewController.xib */,
+			);
+			path = OnBoard;
+			sourceTree = "<group>";
+		};
+		95B11DFD24898D0F001F08FF /* Tes */ = {
+			isa = PBXGroup;
+			children = (
+				95B11DFE24898D1B001F08FF /* Storyboard.storyboard */,
+				95B11E0024898D31001F08FF /* JAViewController.swift */,
+			);
+			path = Tes;
+			sourceTree = "<group>";
+		};
+		B87295072EDE49487FD20DC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				951FBAA9248993DB00A49DC7 /* HealthKit.framework */,
+				A24BF9EBCA4CC1DC4A769D64 /* Pods_CatatSehat.framework */,
+				0CAF6ECF05A4A58A76F32E93 /* Pods_CatatSehat_CatatSehatUITests.framework */,
+				DEE499947ACB284D90D34738 /* Pods_CatatSehatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF9EFF5DB14BC77E2A19CFE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E32A86140D888BF556A1E /* Pods-CatatSehat.debug.xcconfig */,
+				5E95C71FC38BC5E10D77CEE3 /* Pods-CatatSehat.release.xcconfig */,
+				97938CF8F6A7CF135836B521 /* Pods-CatatSehat-CatatSehatUITests.debug.xcconfig */,
+				E31ED84DA1658A072C293E98 /* Pods-CatatSehat-CatatSehatUITests.release.xcconfig */,
+				3F4D8F505C2D7A970F36453D /* Pods-CatatSehatTests.debug.xcconfig */,
+				D1DED9FAA6759CB954D98359 /* Pods-CatatSehatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95B11DB224891B16001F08FF /* CatatSehat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B11DE024891B17001F08FF /* Build configuration list for PBXNativeTarget "CatatSehat" */;
+			buildPhases = (
+				FA4A8731477FBE6304CC9735 /* [CP] Check Pods Manifest.lock */,
+				95B11DAF24891B16001F08FF /* Sources */,
+				95B11DB024891B16001F08FF /* Frameworks */,
+				95B11DB124891B16001F08FF /* Resources */,
+				B09727AA757E9398F3416B4F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatatSehat;
+			productName = CatatSehat;
+			productReference = 95B11DB324891B16001F08FF /* CatatSehat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95B11DCB24891B17001F08FF /* CatatSehatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B11DE324891B17001F08FF /* Build configuration list for PBXNativeTarget "CatatSehatTests" */;
+			buildPhases = (
+				347BBEF24368FEBC4A6D9C1F /* [CP] Check Pods Manifest.lock */,
+				95B11DC824891B17001F08FF /* Sources */,
+				95B11DC924891B17001F08FF /* Frameworks */,
+				95B11DCA24891B17001F08FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B11DCE24891B17001F08FF /* PBXTargetDependency */,
+			);
+			name = CatatSehatTests;
+			productName = CatatSehatTests;
+			productReference = 95B11DCC24891B17001F08FF /* CatatSehatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95B11DD624891B17001F08FF /* CatatSehatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B11DE624891B17001F08FF /* Build configuration list for PBXNativeTarget "CatatSehatUITests" */;
+			buildPhases = (
+				02A45D6EDD7C390471380CB3 /* [CP] Check Pods Manifest.lock */,
+				95B11DD324891B17001F08FF /* Sources */,
+				95B11DD424891B17001F08FF /* Frameworks */,
+				95B11DD524891B17001F08FF /* Resources */,
+				762C7094F25B8D11E94B2484 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B11DD924891B17001F08FF /* PBXTargetDependency */,
+			);
+			name = CatatSehatUITests;
+			productName = CatatSehatUITests;
+			productReference = 95B11DD724891B17001F08FF /* CatatSehatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95B11DAB24891B16001F08FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Firda Sahidi";
+				TargetAttributes = {
+					95B11DB224891B16001F08FF = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					95B11DCB24891B17001F08FF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 95B11DB224891B16001F08FF;
+					};
+					95B11DD624891B17001F08FF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 95B11DB224891B16001F08FF;
+					};
+				};
+			};
+			buildConfigurationList = 95B11DAE24891B16001F08FF /* Build configuration list for PBXProject "CatatSehat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95B11DAA24891B16001F08FF;
+			productRefGroup = 95B11DB424891B16001F08FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95B11DB224891B16001F08FF /* CatatSehat */,
+				95B11DCB24891B17001F08FF /* CatatSehatTests */,
+				95B11DD624891B17001F08FF /* CatatSehatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95B11DB124891B16001F08FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B11DC624891B17001F08FF /* LaunchScreen.storyboard in Resources */,
+				95B11DF724891E8F001F08FF /* Home.xib in Resources */,
+				95B11DFC248939B6001F08FF /* OnBoardViewController.xib in Resources */,
+				95B11DC324891B17001F08FF /* Assets.xcassets in Resources */,
+				95B11DFF24898D1B001F08FF /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B11DCA24891B17001F08FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B11DD524891B17001F08FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02A45D6EDD7C390471380CB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatatSehat-CatatSehatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		347BBEF24368FEBC4A6D9C1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatatSehatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		762C7094F25B8D11E94B2484 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatatSehat-CatatSehatUITests/Pods-CatatSehat-CatatSehatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatatSehat-CatatSehatUITests/Pods-CatatSehat-CatatSehatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatatSehat-CatatSehatUITests/Pods-CatatSehat-CatatSehatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B09727AA757E9398F3416B4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatatSehat/Pods-CatatSehat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatatSehat/Pods-CatatSehat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatatSehat/Pods-CatatSehat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA4A8731477FBE6304CC9735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatatSehat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95B11DAF24891B16001F08FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B11DF524891E8F001F08FF /* HomeBuilder.swift in Sources */,
+				95B11DF424891E8F001F08FF /* HomeViewController.swift in Sources */,
+				95B11DFB248939B6001F08FF /* OnBoardViewController.swift in Sources */,
+				95B11E0124898D31001F08FF /* JAViewController.swift in Sources */,
+				95B11DF624891E8F001F08FF /* HomeViewModel.swift in Sources */,
+				95B11DC124891B16001F08FF /* CatatSehat.xcdatamodeld in Sources */,
+				95B11DF324891E8F001F08FF /* HomeRouter.swift in Sources */,
+				95B11DB724891B16001F08FF /* AppDelegate.swift in Sources */,
+				95B11DB924891B16001F08FF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B11DC824891B17001F08FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B11DD124891B17001F08FF /* CatatSehatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B11DD324891B17001F08FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B11DDC24891B17001F08FF /* CatatSehatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95B11DCE24891B17001F08FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B11DB224891B16001F08FF /* CatatSehat */;
+			targetProxy = 95B11DCD24891B17001F08FF /* PBXContainerItemProxy */;
+		};
+		95B11DD924891B17001F08FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B11DB224891B16001F08FF /* CatatSehat */;
+			targetProxy = 95B11DD824891B17001F08FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95B11DC424891B17001F08FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95B11DC524891B17001F08FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95B11DDE24891B17001F08FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95B11DDF24891B17001F08FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95B11DE124891B17001F08FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3E32A86140D888BF556A1E /* Pods-CatatSehat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CatatSehat/CatatSehat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A8TY7T8ZY;
+				INFOPLIST_FILE = "$(SRCROOT)/CatatSehat/Configuration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.firdasahidi.CatatSehat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		95B11DE224891B17001F08FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E95C71FC38BC5E10D77CEE3 /* Pods-CatatSehat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CatatSehat/CatatSehat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A8TY7T8ZY;
+				INFOPLIST_FILE = "$(SRCROOT)/CatatSehat/Configuration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.firdasahidi.CatatSehat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		95B11DE424891B17001F08FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4D8F505C2D7A970F36453D /* Pods-CatatSehatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A8TY7T8ZY;
+				INFOPLIST_FILE = CatatSehatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.firdasahidi.CatatSehatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatatSehat.app/CatatSehat";
+			};
+			name = Debug;
+		};
+		95B11DE524891B17001F08FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1DED9FAA6759CB954D98359 /* Pods-CatatSehatTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A8TY7T8ZY;
+				INFOPLIST_FILE = CatatSehatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.firdasahidi.CatatSehatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatatSehat.app/CatatSehat";
+			};
+			name = Release;
+		};
+		95B11DE724891B17001F08FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97938CF8F6A7CF135836B521 /* Pods-CatatSehat-CatatSehatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A8TY7T8ZY;
+				INFOPLIST_FILE = CatatSehatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.firdasahidi.CatatSehatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatatSehat;
+			};
+			name = Debug;
+		};
+		95B11DE824891B17001F08FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31ED84DA1658A072C293E98 /* Pods-CatatSehat-CatatSehatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A8TY7T8ZY;
+				INFOPLIST_FILE = CatatSehatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.firdasahidi.CatatSehatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatatSehat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95B11DAE24891B16001F08FF /* Build configuration list for PBXProject "CatatSehat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B11DDE24891B17001F08FF /* Debug */,
+				95B11DDF24891B17001F08FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B11DE024891B17001F08FF /* Build configuration list for PBXNativeTarget "CatatSehat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B11DE124891B17001F08FF /* Debug */,
+				95B11DE224891B17001F08FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B11DE324891B17001F08FF /* Build configuration list for PBXNativeTarget "CatatSehatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B11DE424891B17001F08FF /* Debug */,
+				95B11DE524891B17001F08FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B11DE624891B17001F08FF /* Build configuration list for PBXNativeTarget "CatatSehatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B11DE724891B17001F08FF /* Debug */,
+				95B11DE824891B17001F08FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95B11DBF24891B16001F08FF /* CatatSehat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95B11DC024891B16001F08FF /* CatatSehat.xcdatamodel */,
+			);
+			currentVersion = 95B11DC024891B16001F08FF /* CatatSehat.xcdatamodel */;
+			path = CatatSehat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95B11DAB24891B16001F08FF /* Project object */;
+}
